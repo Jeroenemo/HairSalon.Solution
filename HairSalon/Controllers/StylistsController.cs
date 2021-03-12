@@ -29,5 +29,10 @@ namespace HairSalon.Controllers
       _db.SaveChanges();
       return RedirectToAction("Index");
     }
+    public ActionResult Details(int id)
+    {
+      Stylist thisStylist = _db.Stylist.FirstOrDefault(styilst => stylist.StylistId == id);
+      return View(thisStylist);
+    }
   }
 }
