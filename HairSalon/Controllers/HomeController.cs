@@ -4,7 +4,7 @@ namespace HairSalon.Controllers
 {
   public class HomeController : Controller
   {
-    public actionResult Index()
+    public ActionResult Index()
     {
       return View();
     }
