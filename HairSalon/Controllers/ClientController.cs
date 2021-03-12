@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
-using ToDoList.Models;
+using HairSalon.Models;
 using System.Collections.Generic;
 using System.Linq;
 
@@ -40,6 +40,7 @@ namespace HairSalon.Controllers
     {
       Client thisClient = _db.Clients.FirstOrDefault(client => client.ClientId == id);
       ViewBag.StylistId = new SelectList(_db.Stylists, "StylistId", "Name");
+      return View(thisClient);
     }
     [HttpPost]
     public ActionResult Edit(Client client)
