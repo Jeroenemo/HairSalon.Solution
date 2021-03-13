@@ -17,7 +17,7 @@
 
 ## Description
 
-This is a basic application designed to dipslay my grasp on database basics, using a one to many relationship. In this application, a user can add stylists to a list, and attribute clients to the stylist. and  This application was created with the guidance of **EPICODUS**, the greatest coding bootcamp in the known universe, and google.
+This is a basic application designed to display my grasp on database basics, using a one to many relationship. In this application, a user can add stylists to a list, and attribute clients to the stylist. and  This application was created with the guidance of **EPICODUS**, the greatest coding bootcamp in the known universe, and google.
 
 ## Setup/Installation Requirements
 
@@ -38,7 +38,7 @@ This is a basic application designed to dipslay my grasp on database basics, usi
 * Run a restore and build command. `dotnet restore` and `dotnet build`
 
 **Set up the Database:**
-* You need to have MySqlWorkbench installed on your machine.
+* You need to have MySqlWorkbench installed on your machine. You can download it [here](https://www.mysql.com/products/workbench/)
 * In the navigator > Administration window, select Data Import/Restore
 * In Import Options select Import from Self-Contained File.
 * Navigate to jeroen_van_seeters.sql in the HairSalon.Solutions directory
