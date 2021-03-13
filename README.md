@@ -25,7 +25,7 @@ This is a basic application designed to display my grasp on database basics, usi
 * You need to have .net 5.0 installed on your machine in order to run this program. You can find the download [here](https://dotnet.microsoft.com/download/dotnet/5.0)
 * Clone the repository from GitHub using `git clone https://github.com/Jeroenemo/HairSalon.Solution.git`
 * Navigate to the downloaded folder using the cd command
-* * Navigate down one level into the HairSalon directory. `cd HairSalon`
+* Navigate down one level into the HairSalon directory. `cd HairSalon`
 * Create an appsettings.json file in the HairSalon directory. `touch appsettings.json`
 * Add the following code to your appsettings.json file
 * ```
