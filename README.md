@@ -48,6 +48,9 @@ This is a basic application designed to display my grasp on database basics, usi
 * Click Start Import
 * Reopen the Navigator > Schemas tab. Right click and select Refresh All. 
 
+**Run the Application**
+* Back in your terminal, in the HairSalon.Solution > HairSalon directory, type `dotnet run`
+* Open your browser and visit http://localhost:5000
 ## Future Enhancements
 
 * Include form for search functionality
