@@ -50,10 +50,10 @@ This is a basic application designed to dipslay my grasp on database basics, usi
 
 ## Future Enhancements
 
-* Make it look snazzy 
-* Provide total of all orders
-* Fix Individual Delete functionality in WIP branch
-* Add update functionality 
+* Include form for search functionality
+* Add appointment feature
+* Add payment tracking
+* Add styling
 
 
 ## License
